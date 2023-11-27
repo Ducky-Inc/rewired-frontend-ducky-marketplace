@@ -10,10 +10,6 @@ export const MarketplaceContent = () => {
   useEffect(() => {
     fetch(CONSTANTS.BACKEND_URL + CONSTANTS.ENDPOINT.GET_ALL_ASSETS, {
       method: "GET",
-      headers: {
-        "Content-Type": "application/json",
-        "Access-Control-Allow-Origin": "*", // Note: This should ideally be handled in the backend
-      },
     })
       .then((response) => response.json())
       .then((data) => {
