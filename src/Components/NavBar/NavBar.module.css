@@ -1,0 +1,9 @@
+.navBar {
+    display: relative;
+    height: 7em;
+    width: 100%;
+  }
+  .navigation {
+    font-family: "Morganite", Fallback, sans-serif;
+    font-weight: bold;
+  }
